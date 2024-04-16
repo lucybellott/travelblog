@@ -11,9 +11,9 @@ body {
     width: 100%;
     background-size: cover;
     padding: 20px;
-    height: 250px;
+    height: 220px;
     text-align: center;
-    line-height: 250px;
+    line-height: 220px;
     font-family: "Dancing Script", cursive;
     font-weight: 700;
     font-size: 40px ;
@@ -44,14 +44,30 @@ body {
   }
   
   .post {
+    /* background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px; */
     background-color: #fff;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 5px;
+    display: flex; /* Added to make flexbox layout */
+    flex-direction: column; /* Added to stack elements vertically */
+    
+
+  }
+
+  .container{
+    display: flex;
+    align-items: center; /* Vertically center content */
+    padding-right: 30px;
   }
   
   .post h2 {
     color: #1b84bc;
+    font-size: 3em;
+    font-family: "Dancing Script", cursive;
   }
   
   .post p {
@@ -75,6 +91,9 @@ body {
 
   #index-image {
     width: 40%;
+    margin-left: 30px;
+    margin-right: 20px;
+    border: 12px solid rgb(144, 181, 230);
   }
 
   #main-page {
@@ -82,8 +101,19 @@ body {
   }
 
   #index-p {
-    padding-left: 200px; 
-    padding-right: 200px; 
+    padding-left: 65px; 
+    padding-right: 65px; 
+    padding-top: 70px; /* Adjust the value as needed */
+    padding-bottom: 70px; 
+    margin-right: 40px;
+    margin-left: 40px;
+    color:  rgb(119, 110, 110);
+    font-size: 16px;
+    flex: 1; /* Allow text to grow */
+    background-color: #d5e5ee;
+    text-align: justify;
+   
+    
   }
 
   
