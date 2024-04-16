@@ -73,5 +73,9 @@ body {
     list-style-type: none; /* Removes bullet points */
   }
 
+  #index-image {
+    width: 20%;
+  }
+
   
   
