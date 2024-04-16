@@ -23,9 +23,10 @@ body {
   
   nav {
     background-color: #ea8d30;
-    padding: 10px;
     text-align: center;
+    padding: 18px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-left: 2%;
   }
   
   nav a {
@@ -34,6 +35,7 @@ body {
     margin: 0 10px;
     font-family: monospace;
     font-size: 16px;
+    font-weight: 600;
 
   }
   
@@ -49,7 +51,7 @@ body {
   }
   
   .post h2 {
-    color: #333;
+    color: #1b84bc;
   }
   
   .post p {
@@ -70,5 +72,6 @@ body {
   ul {
     list-style-type: none; /* Removes bullet points */
   }
+
   
   
