@@ -2,18 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e2d9ea;
+    background-color: #c4def2;
   }
   
   header {
-    background-image: url("https://www.forbes.com/advisor/wp-content/uploads/2021/03/traveling-based-on-fare-deals.jpg");
+    background-image: url("https://www.wowtravelclub.com/wp-content/uploads/2018/12/header-image.jpg");
     color: #fff;
     width: 100%;
     background-size: cover;
     padding: 20px;
-    height: 300px;
+    height: 250px;
     text-align: center;
-    line-height: 300px;
+    line-height: 250px;
     font-family: "Dancing Script", cursive;
     font-weight: 700;
     font-size: 40px ;
@@ -22,7 +22,7 @@ body {
   }
   
   nav {
-    background-color: #9269b7;
+    background-color: #ea8d30;
     padding: 10px;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -57,7 +57,7 @@ body {
   }
   
   footer {
-    background-color: #9269b7;
+    background-color: #e0c68a;
     color: #fff;
     text-align: center;
     padding: 10px;
