@@ -118,17 +118,23 @@ body {
 
   #about-img{
     width: 12%;
-    padding-left: 65px; 
-    padding-right: 65px; 
+    /* padding-left: 65px; 
+    padding-right: 65px;  */
+    border: 12px solid rgb(144, 181, 230);
+    margin-bottom: 20px;
    
   }
 
   #about-text{
     text-align: justify;
-    padding-left: 250px; 
-    padding-right: 250px; 
+    margin-left: 250px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 250px; 
     padding-top: 30px;
+    padding-bottom: 30px;
     color: rgb(119, 110, 110);
+    background-color: #f2e0c5;
   }
 
   #title{
