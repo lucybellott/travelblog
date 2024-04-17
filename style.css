@@ -116,5 +116,29 @@ body {
     
   }
 
+  #about-img{
+    width: 12%;
+    padding-left: 65px; 
+    padding-right: 65px; 
+   
+  }
+
+  #about-text{
+    text-align: justify;
+    padding-left: 250px; 
+    padding-right: 250px; 
+    padding-top: 30px;
+    color: rgb(119, 110, 110);
+  }
+
+  #title{
+    /* padding-left: 65px; */
+    text-align: center;
+  }
+
+  #about-container{
+    text-align: center;
+    
+  }
   
   
