@@ -118,8 +118,7 @@ body {
 
   #about-img{
     width: 12%;
-    /* padding-left: 65px; 
-    padding-right: 65px;  */
+    margin-top: 25px;  
     border: 12px solid rgb(144, 181, 230);
     margin-bottom: 20px;
    
@@ -148,7 +147,15 @@ body {
   }
 
   .country-images {
-    width: 20%;
+    width: 38%;
+  }
+
+  .photo-container{
+    display: flex; /* Added to make flexbox layout */
+    flex-direction: column; /* Added to stack elements vertically */
+    justify-content: center; /* Aligns items vertically in the center */
+    align-items: center;
+
   }
   
   
